@@ -1,0 +1,27 @@
+# [vim]
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# persistent undo 
+*.un~
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+# [virtualenv]
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+venv
+pip-selfcheck.json
+
+# [python]
+__pycache__/
+*.py[cod]
+*$py.class
